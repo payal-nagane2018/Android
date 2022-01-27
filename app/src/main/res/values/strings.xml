@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lesson Plan</string>
+    <string name="title_activity_admin_navigation">Admin Panel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin Panel</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_viewlessonplan">View Lesson Plan</string>
+    <string name="menu_addfaculty">Add Faculty</string>
+    <string name="menu_modifyfaculty">Modify Faculty</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="title_activity_faculty_navigation">Faculty Panel</string>
+    <string name="navigation_drawer_openfac">Open navigation drawer</string>
+    <string name="navigation_drawer_closefac">Close navigation drawer</string>
+    <string name="nav_header_titlefac">Faculty Panel</string>
+    <string name="nav_header_descfac" translatable="false">Navigation header</string>
+    <string name="action_settingsfac">Settings</string>
+
+    <string name="menu_viewlessonplanfac">View Lesson Plan</string>
+    <string name="menu_addlessonplan">Add Lesson Plan</string>
+    <string name="menu_modifylessonplan">Modify Lesson Plan</string>
+    <string name="menu_logoutfac">Logout</string>
+
+</resources>

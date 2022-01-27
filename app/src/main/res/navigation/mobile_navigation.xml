@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_viewlessonplan">
+
+    <fragment
+        android:id="@+id/nav_viewlessonplan"
+        android:name="com.payal.faculty.ui.adminviewlessonplan.AdminViewLessonPlanFragment"
+        android:label="@string/menu_viewlessonplan"
+        tools:layout="@layout/admin_fragment_viewlessonplan" />
+
+    <fragment
+        android:id="@+id/nav_addfaculty"
+        android:name="com.payal.faculty.ui.adminaddfaculty.AdminAddFacultyFragment"
+        android:label="@string/menu_addfaculty"
+        tools:layout="@layout/admin_fragment_addfaculty" />
+
+    <fragment
+        android:id="@+id/nav_modifyfaculty"
+        android:name="com.payal.faculty.ui.adminmodifyfaculty.AdminModifyFacultyFragment"
+        android:label="@string/menu_modifyfaculty"
+        tools:layout="@layout/admin_fragment_modifyfaculty" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="@string/menu_logout" />
+
+
+</navigation>

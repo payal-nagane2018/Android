@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_viewlessonplanfac"
+            android:icon="@drawable/ic_viewplain"
+            android:title="@string/menu_viewlessonplanfac" />
+        <item
+            android:id="@+id/nav_addlessonplanfac"
+            android:icon="@drawable/ic_add_lesson_plan"
+            android:title="@string/menu_addlessonplan" />
+        <item
+            android:id="@+id/nav_modifylessonplanfac"
+            android:icon="@drawable/ic_modifyfaculty"
+            android:title="@string/menu_modifylessonplan" />
+    </group>
+    <item android:title="communication">
+        <menu>
+            <item
+                android:id="@+id/nav_logoutfac"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logoutfac" />
+        </menu>
+    </item>
+</menu>

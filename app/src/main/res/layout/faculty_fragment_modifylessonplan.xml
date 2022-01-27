@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp">
+
+        <TableRow
+            android:id="@+id/row20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:id="@+id/txtidmod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/etidmodF"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/txtDatemod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/etDatemodF"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"/>
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/txtTimemod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/spTimemod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtPractmod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Practical:"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rgPractmod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbPractYesmod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/rbPractNomod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row26"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtLecturemod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lecture:"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rgLecmod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rbLecYesmod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rbLecNomod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:id="@+id/row27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row28"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row29"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/row210"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/buttonmodifylesson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modify Lesson Plan"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_login"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/row211"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/buttondeletelesson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Lesson Plan"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_login"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
