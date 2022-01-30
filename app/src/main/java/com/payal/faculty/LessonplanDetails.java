@@ -82,7 +82,6 @@ public class LessonplanDetails extends AppCompatActivity{
         String strD=in.getStringExtra("DATE");
         String strT=in.getStringExtra("TIME");
 
-//        Toast.makeText(this,strD+"////"+strT+"///"+user_id,Toast.LENGTH_LONG).show();
         Cursor c=myDB.getAllBData(""+user_id,strD,strT);
         while (c.moveToNext()) {
 
@@ -202,10 +201,10 @@ public class LessonplanDetails extends AppCompatActivity{
 
             //add more
             Font orderNumberFont =new Font(fontName,fontSize,Font.NORMAL,BaseColor.BLACK);
-          //  addNewItem(document,"User ID:",Element.ALIGN_LEFT,orderNumberFont);
+
 
             Font orderNumberValueFont =new Font(fontName,fontSize,Font.NORMAL,BaseColor.BLACK);
-           // addNewItem(document,""+uid,Element.ALIGN_LEFT,orderNumberValueFont);
+
             addLineSeperator(document);
             addNewItemWithLeftAndRight(document,"User ID:",""+uid, Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
 
@@ -219,37 +218,23 @@ public class LessonplanDetails extends AppCompatActivity{
             addNewItemWithLeftAndRight(document,"","", Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"","", Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"","", Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
-//            addNewItem(document,"Faculty Name:",Element.ALIGN_LEFT,orderNumberFont);
-//            addNewItem(document,strFname,Element.ALIGN_LEFT,orderNumberValueFont);
+
             addLineSeperator(document);
             addNewItemWithLeftAndRight(document,"Faculty Name:", strFname, Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
 
             addLineSeperator(document);
 
-//            addNewItem(document,"Password:",Element.ALIGN_LEFT,orderNumberFont);
-//            addNewItem(document,strPass,Element.ALIGN_LEFT,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"Password:",strPass,Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
 
             addLineSeperator(document);
 
             addNewItem(document,"Lesson Plan Details", Element.ALIGN_CENTER,titleFont);
             addLineSeperator(document);
-            //add product order details
-//            addLineSeperator(document);
-//
-//            addNewItem(document,"Plan Details", Element.ALIGN_CENTER,titleFont);
-//            addLineSeperator(document);
 
-            //Item1
-//            addNewItemWithLeftAndRight(document,"Date:","(0.0%)",titleFont,orderNumberValueFont);
-//            addNewItemWithLeftAndRight(document,strDate,"12000.0",titleFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"Date:",strDate,Element.ALIGN_CENTER,orderNumberFont,orderNumberValueFont);
 
             addLineSeperator(document);
 
-            //Item2
-//            addNewItemWithLeftAndRight(document,"Time:","(0.0%)",titleFont,orderNumberValueFont);
-//            addNewItemWithLeftAndRight(document,strTime,"10.0",titleFont,orderNumberValueFont);
             addNewItemWithLeftAndRight(document,"Time:",strTime, Element.ALIGN_CENTER, orderNumberFont,orderNumberValueFont);
 
             addLineSeperator(document);

@@ -43,12 +43,7 @@ public class FacultyLogin extends AppCompatActivity {
                         etxtUserIdfac.setText("");
                         etxtPassfac.setText("");
                     }
-//                    else
-//                    {
-//                        Toast.makeText(getApplicationContext(),"Login Failed",Toast.LENGTH_SHORT).show();
-//                    }
                 }
-               // finish();
             }
         });
 

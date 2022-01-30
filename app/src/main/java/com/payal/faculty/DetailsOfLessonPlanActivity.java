@@ -18,7 +18,7 @@ public class DetailsOfLessonPlanActivity extends AppCompatActivity {
         TextView txtIdi=(TextView)findViewById(R.id.textIDI);
         Intent in=getIntent();
         int idi=in.getIntExtra("IDI",0);
-       // String strid=
+
         Cursor c=myDB.getDataF(""+idi);
         while (c.moveToNext()) {
             String str="\n\n ID: \t\t\t\t\t\t\t\t\t\t"+c.getInt(0);

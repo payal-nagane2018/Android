@@ -13,10 +13,10 @@ public class DatabaseHelper extends SQLiteOpenHelper
 {
     SQLiteDatabase db;
 
-    public final static String DATABASE_NAME = "pppopponammm.db";
+    public final static String DATABASE_NAME = "facultydbfri.db";
 
-    public final static String TABLE_NAME = "payal_table";
-    public final static String TABLE_NAME1 = "rutu_table";
+    public final static String TABLE_NAME = "tablefri";
+    public final static String TABLE_NAME1 = "tablesec";
 
     public static final String COL_1 = "USER_ID";
     public static final String COL_2 = "PASSWORD";
@@ -28,7 +28,6 @@ public class DatabaseHelper extends SQLiteOpenHelper
     public static final String COL_8 = "SUBJECT";
 
     public static final String C_0 = "ID";
-   // public static final String COL_1 = "USER_ID";
     public static final String C_2 = "DATE";
     public static final String C_3 = "TIME";
     public static final String C_4 = "PRACTICAL";
@@ -151,7 +150,6 @@ public class DatabaseHelper extends SQLiteOpenHelper
         db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(C_0, id);
-        //contentValues.put(COL_1, uid);
         contentValues.put(C_2, date);
         contentValues.put(C_3, time);
         contentValues.put(C_4, practical);

@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseHelperF extends SQLiteOpenHelper
 {
 
-    public final static String DATABASE_NAME = "nnppopdatabasepppnnn.db";
-    public final static String TABLE_NAME = "FacultyLP_table";
+    public final static String DATABASE_NAME = "facultydbsec.db";
+    public final static String TABLE_NAME = "tablethr";
     public static final String COL_0 = "ID";
     public static final String COL_1 = "USER_ID";
     public static final String COL_2 = "DATE";
